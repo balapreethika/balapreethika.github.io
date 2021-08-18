@@ -1,0 +1,33 @@
+/* Full-width input fields */
+input[type=text], input[type=email],textarea {
+  width: 100%;
+  padding: 6px;
+  margin: 5px 0 5px 0;
+  display: inline-block;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=email]:focus, textarea:focus {
+  background-color: #ddd;
+}
+
+p{
+  text-align:center;
+  font-size:20px;
+}
+
+/* Set a style for the submit/register button */
+.send {
+  background-color: green;
+  color: white;
+  padding: 5px 10px;
+  margin: 5px 200px;
+  cursor: pointer;
+  text-align: center;
+  width: 25;
+  opacity: 0.9;
+}
+
+.send:hover {
+  opacity:1;
+}
